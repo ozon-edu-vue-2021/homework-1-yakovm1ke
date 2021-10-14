@@ -21,6 +21,18 @@ p {
 
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_item {
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .button {
     border: none;
     padding: 10px;
@@ -37,4 +49,9 @@ p {
 
 .math {
     margin-block-start: 1em;
+}
+
+.math span {
+    display: inline-block;
+    width: 6em;
 }
